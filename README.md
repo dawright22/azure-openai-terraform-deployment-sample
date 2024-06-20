@@ -16,26 +16,6 @@ The easiest way to run this sample is to run it creating a new [GitHub Codespace
 
 ## Quickstart
 
-### (Optional) configure GitHub Codespaces secrets to access your Azure subscription
-
-- Run the following command to create a service principal with the "Owner" role for a specific subscription, and outputs its information in JSON format.
-
-    ```bash
-    az ad sp create-for-rbac --role="Owner" --scopes="/subscriptions/<SUBSCRIPTION_ID>" -o json
-    ```
-
-- In your github account go to Codespaces and Create a new Codespace with "Azure-Sample/azure-openai-terraform-deployment-sample" repository and select the main branch.
-
-    ![codespace_create](./images/codespace-create.png)
-
-- In your github account, go to Settings. On the left pane, select Codespaces tab and create a secret for `ARM_CLIENT_ID`, `ARM_CLIENT_SECRET`, `ARM_SUBSCRIPTION_ID` and `ARM_TENANT_ID` values, as shown in the image below. For each secret, on the Repository access section, click on the "Select repositories" dropdown menu and select "Azure-Samples/azure-openai-terraform-deployment-sample".
-
-    ![codespace_secrets](./images/codespace_secrets.png)
-
-- Follow this link to create a new [GitHub Codespace](https://codespaces.new/Azure-Samples/azure-openai-terraform-deployment-sample).
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/azure-openai-terraform-deployment-sample)
-
 ### Run the Terraform
 
 - Clone or fork this repository. (Skip if using GitHub codespaces)
