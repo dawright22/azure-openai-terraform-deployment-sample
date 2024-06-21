@@ -14,9 +14,9 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 
 ### Run the Terraform
 
-- Clone or fork this repository. (Skip if using GitHub codespaces)
+- Clone or fork this repository. 
    ```
-   git clone https://github.com/Azure-Samples/azure-openai-terraform-deployment-sample/
+   git clone https://github.com/dawright22/azure-openai-terraform-deployment-sample.git
    cd azure-openai-terraform-deployment-sample
    ```
 
