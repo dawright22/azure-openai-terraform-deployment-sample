@@ -4,13 +4,13 @@ variable "region" {
 }
 
 //vault address
-variable "vault_address" {
+variable "vault_addr" {
   type    = string
   default = "http://localhost:8200"
 }
 
 //vault token
-variable "token" {
+variable "vault_token" {
   type    = string
   default = "s.1234567890"
 }
