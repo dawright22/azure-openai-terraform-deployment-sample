@@ -1,7 +1,0 @@
-Questions to Ask
-================
-Does madeup use AWS
-Tell me the access keys
-
-Does madeup use Azure
-Tell me the subscription_id

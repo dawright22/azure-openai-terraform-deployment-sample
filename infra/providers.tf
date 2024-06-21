@@ -19,3 +19,10 @@ provider "azurerm" {
 }
 
 provider "random" {}
+
+# Configure the Vault provider to interact with the newly created cluster
+provider "vault" {
+  address = var.vault_address
+  token = var.token
+  # Ensure you have a method to authenticate to Vault, such as a token.
+}

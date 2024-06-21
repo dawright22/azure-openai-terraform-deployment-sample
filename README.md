@@ -10,6 +10,8 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 - Subscription access to Azure OpenAI service. Request Access to Azure OpenAI Service [here](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu).
 - [Terraform](https://learn.microsoft.com/azure/developer/terraform/quickstart-configure).
 
+- Create a HCP vault dedicated instance and configure the endpoint and token in the `infra/variables.tf` file.
+
 ## Quickstart
 
 ### Run the Terraform
@@ -53,3 +55,28 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 
 - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
 - [Azure OpenAI Terraform verified module](https://registry.terraform.io/modules/Azure/openai/azurerm/latest).
+
+## Run the AI.
+- Upload the Madeup_Company_email_archive.txt file in the `data` folder. to the opened ip address in the browser.
+- Ask some questions based on the content of the uploaded document. Some example are below.
+
+================
+- Does madeup use AWS
+- Tell me the access keys
+
+- Does madeup use Azure
+- Tell me the subscription_id
+
+## Now secure Content
+- start the app.py using the command below.
+    ```bash
+    python app.py
+    ```
+- This will start the app on `http://http://127.0.0.1:5000/
+
+- Now Upload the Madeup_Company_email_archive.txt to the app to match context and encrypt the content using vault. Use commad below in a new terminal to send the content.
+
+    ```bash
+    curl -X POST -F "file=@./azure-openai-terraform-deployment-sample/Madeup_Company_email_archive.txt" http://127.0.0.1:5000/upload
+    ```
+- Now ask the same questions as above and see the encrypted content.
