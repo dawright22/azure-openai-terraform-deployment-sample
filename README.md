@@ -51,13 +51,9 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 
 ![app](/images/application.png)
 
-## Resources
-
-- [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
-- [Azure OpenAI Terraform verified module](https://registry.terraform.io/modules/Azure/openai/azurerm/latest).
-
 ## Run the AI.
-- Upload the Madeup_Company_email_archive.txt file in the `data` folder. to the opened ip address in the browser.
+- Upload the Madeup_Company_email_archive.txt file in the `data` folder. Using the upload button on the app.
+
 - Ask some questions based on the content of the uploaded document. Some example are below.
 
 ================
@@ -80,3 +76,8 @@ This sample application deploys an AI-powered document search using Azure OpenAI
     curl -X POST -F "file=@./azure-openai-terraform-deployment-sample/Madeup_Company_email_archive.txt" http://127.0.0.1:5000/upload
     ```
 - Now ask the same questions as above and see the encrypted content.
+
+## Resources
+
+- [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
+- [Azure OpenAI Terraform verified module](https://registry.terraform.io/modules/Azure/openai/azurerm/latest).
