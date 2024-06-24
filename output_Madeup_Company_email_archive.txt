@@ -1,0 +1,17 @@
+This is to jumpstart your dev envriomnet at Madeup
+
+To access your aws envriomnet you need the following:
+aws_access_key_id = vault:v1:vault:v1:Zn+0z5497kjbeXzIC7lMite2sKYOfT44nm6sD4kEqTP+TJ0H+Nr1S7q1lFZDEt+i0oOmakb8jabH+ONAAqNHpOSe6aQ=WzO/0rgu7HDksOWO/EqX8aRT
+aws_secret_access_key = vault:v1:Od4Y+o0Ct5tWdbdUWUBPCjoqfT0n9H8mD2HyvrCXN7FVMHwLmj3rxWywXGAeO4Dn9jdJtqQFn3FrAm8iFeG2KjtTAkc=
+
+
+To access your azure envrioment you need the following:
+
+  subscription_id = "vault:v1:X3uMi0sOmfWaPgn2aZ28EiZCf+F83u/kfSCrjQ+O9zQtg2r5D/EuJdT6Pj9c73ad9PXWEJAYV4incG8ngdV+3A=="
+  client_id       = "vault:v1:SPIptCkKDMtIr/kuZKhD0LobnMnql6wAwv7GvhP4BhTM4g5yy+5jKrtRPTcpgBfAX/UDRm6Ll4t5DlCrkYoDNA=="
+  client_secret   = "vault:v1:aONB+MsSSHkotNXuqYPew64F/hggfdEqUZhFCcoM6aH8exbsddFvovE95WokJvM9c3wVegFTF/6Z47mhEUBp3Q=="
+  tenant_id       = "vault:v1:4z/b4My6jzAW/Hl2RzTOuLqtYdyYnyPiXcK/C8noXP1o1H3LJjQzkIFxcXKx3rcK7LqlDNMwDlcb7vUIYfzq9A=="
+
+If you need support email John in support at smith@hashicorp.com
+
+Madeup has 1000 employees clear

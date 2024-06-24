@@ -73,7 +73,7 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 - Now Upload the Madeup_Company_email_archive.txt to the app to match context and encrypt the content using vault. Use commad below in a new terminal to send the content.
 
     ```bash
-    curl -X POST -F "file=@./azure-openai-terraform-deployment-sample/Madeup_Company_email_archive.txt" http://127.0.0.1:5000/upload
+    curl -X POST -F "file=@./data/Madeup_Company_email_archive.txt" http://127.0.0.1:5000/upload -v
     ```
 - Now ask the same questions as above and see the encrypted content.
 
