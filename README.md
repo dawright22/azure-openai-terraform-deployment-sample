@@ -75,7 +75,8 @@ This sample application deploys an AI-powered document search using Azure OpenAI
     ```bash
     curl -X POST -F "file=@./data/Madeup_Company_email_archive.txt" http://127.0.0.1:5000/upload -v
     ```
-- Now ask the same questions as above and see the encrypted content.
+-Upload the Output_Madeup_Company_email_archive.txt file in the main folder. Using the upload button on the app. 
+-Now ask the same questions as above and see the encrypted content.
 
 ## Resources
 
