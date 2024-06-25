@@ -38,7 +38,7 @@ def upload_file():
     content = file.read().decode('utf-8')
     updated_content, replacements = replace_matches_with_encryption(content)
     
-    output_path = 'output_' + file.filename
+    output_path = 'redacted_' + file.filename
     with open(output_path, 'w') as f:
         f.write(updated_content)
     
