@@ -82,4 +82,4 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 ## Resources
 
 - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
-- [Azure OpenAI Terraform verified module](https://registry.terraform.io/modules/Azure/openai/azurerm/latest).
+- [Azure OpenAI Terraform verified module](https://registry.terraform.io/modules/Azure/openai/azurerm/latest).# Azure-pinecone-terraform-deployment
